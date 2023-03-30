@@ -16,21 +16,31 @@
         <header>
             <nav class="fixed-top bg-white d-flex">
                 <div class="container-fluid d-flex align-items-center gap-4">
-                    <div>
+                    <div class="flex-grow-0">
                         <img class="img-fluid d-none d-lg-block" src="./img/logo.svg" alt="">
-                        <img class="img-fluid d-lg-none" src="./img/mobile-logo.png" alt="">
+                        <img class="img-fluid mxHeight d-lg-none" src="./img/mobile-logo.png" alt="">
                     </div>
                     <div class="flex-grow-1">
-                        <input class="form-control me-2" type="search" 
+                        <input class="form-control bgSearch me-2" type="search" 
                         placeholder="&#xf002; Prova a cercare: Lezioni di Laravel" aria-label="Search">
                     </div>
+                    <div class="d-flex justify-content-center align-items-center gap-3 d-none d-lg-flex">
+                        <i class="fs-5 fa-solid fa-list"></i>
+                        <i class="fs-5 fa-solid fa-circle-question"></i>
+                        <i class="fs-5 fa-solid fa-ellipsis-vertical"></i>
+                    </div>
+                    <div class="dropdown">
+                        <button type="button" class="border-0 bg-transparent" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                            <span> <i class="fs-5 fa-solid fa-bell"></i></span>
+                        </button>
                     </div>
                 </div>
             </nav>
-
         </header>
         <main></main>
-        <footer></footer>
+    </div>
+        
     </div>
 </body>
 </html>

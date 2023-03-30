@@ -1,0 +1,11 @@
+input[type='search']::placeholder {
+    font-family: system-ui, FontAwesome, sans-serif;
+}
+
+.mxHeight{
+    max-height: 50px;
+}
+
+.bgSearch{
+    background-color: #b3b3b3;
+}
