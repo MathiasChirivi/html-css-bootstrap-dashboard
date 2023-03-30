@@ -19,3 +19,7 @@ aside{
     background-image: url('../img/sidebar-bg.png');
     background-color: #091e34;
 }
+
+th img{
+    width: 20px;
+}
