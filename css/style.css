@@ -9,3 +9,9 @@ input[type='search']::placeholder {
 .bgSearch{
     background-color: #b3b3b3;
 }
+
+.navBar{
+    width: 150px;
+    background-image: url('../img/sidebar-bg.png');
+    background-color: #091e34;
+}
