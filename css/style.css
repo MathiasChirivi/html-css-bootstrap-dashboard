@@ -3,14 +3,18 @@ input[type='search']::placeholder {
 }
 
 .mxHeight{
-    max-height: 50px;
+    max-height: 60px;
 }
 
 .bgSearch{
     background-color: #b3b3b3;
 }
 
-.navBar{
+.minHeight{
+    min-height: 170px;
+}
+
+aside{
     width: 150px;
     background-image: url('../img/sidebar-bg.png');
     background-color: #091e34;
