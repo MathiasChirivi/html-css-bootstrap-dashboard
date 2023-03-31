@@ -49,3 +49,7 @@ th img{
 .marginTop{
     margin-top: 80px;
 }
+
+.widthOffCanvas{
+    width: 600px!important;
+}
