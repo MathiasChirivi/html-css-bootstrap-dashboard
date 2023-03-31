@@ -1,3 +1,11 @@
+/****************************************
+******************CSS GENERICO***********
+*****************************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .heightNav{
     height: 80px;
 }
@@ -36,12 +44,6 @@ aside{
     background-color: #091e34;
 }
 
-@media screen and (min-width: 992px){
-    aside{
-        width: 150px;
-    }
-}
-
 th img{
     width: 20px;
 }
@@ -52,4 +54,11 @@ th img{
 
 .widthOffCanvas{
     width: 600px!important;
+}
+
+/* MEDIA QUERY */
+@media screen and (min-width: 992px){
+    aside{
+        width: 150px;
+    }
 }
