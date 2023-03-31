@@ -15,9 +15,16 @@ input[type='search']::placeholder {
 }
 
 aside{
-    width: 150px;
+    width: 50px;
     background-image: url('../img/sidebar-bg.png');
+    transition: 1s;
     background-color: #091e34;
+}
+
+@media screen and (min-width: 992px){
+    aside{
+        width: 150px;
+    }
 }
 
 th img{
