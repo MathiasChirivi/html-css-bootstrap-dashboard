@@ -1,3 +1,18 @@
+.heightNav{
+    height: 80px;
+}
+
+.yellowHover:hover{
+    cursor: pointer;
+    color: rgb(161, 77, 8);
+}
+
+.sideHover:hover{
+    border-radius: 20px;
+    background-color: grey;
+    cursor: pointer;
+}
+
 input[type='search']::placeholder {
     font-family: system-ui, FontAwesome, sans-serif;
 }
@@ -29,4 +44,8 @@ aside{
 
 th img{
     width: 20px;
+}
+
+.marginTop{
+    margin-top: 80px;
 }
